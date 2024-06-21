@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Scrollbar styling */
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #fb923c #f3f4f6;
+  }
+}
+
+@layer components {
+  /* Styling for category links */
+  .navLink {
+    @apply hover:underline decoration-orange-400 text-center 
+    decoration-2 active:underline underline-offset-8 rounded-full 
+    p-4 cursor-pointer hover:font-bold capitalize hover:scale-110 
+    transition-transform duration-200 ease-out;
+  }
+
+  /* Styling for Article title */
+  .headerTitle {
+    @apply text-4xl capitalize px-10 pt-5 underline       
+    decoration-orange-400 decoration-2 underline-offset-4
+    decoration-double max-sm:text-2xl;
+  }
+}
