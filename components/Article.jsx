@@ -18,7 +18,7 @@ const Article = () => {
     dispatch(setShowArticle(false)); // Dispatching action to hide article view
   };
 
-  if (!article) return null; // If no article is available, return null (component doesn't render)
+  if (!article) return null;
 
   return (
     <article className="max-w-6xl mx-auto py-5 px-5 space-y-5">
