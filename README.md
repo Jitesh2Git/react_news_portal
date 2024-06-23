@@ -1,6 +1,6 @@
 # Horizon - (React News Portal)
 
-The React News Portal is a sleek and efficient news website designed with cutting-edge technologies. Utilizing React for a dynamic and responsive user interface, the site offers a seamless browsing experience. Tailwind CSS ensures the design is modern and adaptable to any device, while React Icons enhance the visual appeal with a diverse range of icons. The Redux Toolkit provides streamlined state management, making the site fast and reliable. By integrating the GNews API, the portal delivers the latest and most relevant news from around the world. Additionally, the portal features both light and dark modes to suit user preferences and allows users to favorite articles for easy access later. Users can search for articles through keywords, names, descriptions, and more, and filter their results by categories, ensuring a personalized and enjoyable news reading experience.
+The React News Portal is a sleek and efficient news website designed with cutting-edge technologies. Utilizing React for a dynamic and responsive user interface, the site offers a seamless browsing experience. Tailwind CSS ensures the design is modern and adaptable to any device, while React Icons enhance the visual appeal with a diverse range of icons. The Redux Toolkit provides streamlined state management, making the site fast and reliable. By integrating the GNews API, the portal delivers the latest and most relevant news from around the world. Additionally, the portal features both light and dark modes to suit user preferences and allows users to favorite articles for easy access later. Users can search for articles through keywords, names, descriptions, and more, filter their results by categories, and navigate through multiple articles with pagination, ensuring a personalized and enjoyable news reading experience.
 
 ## Live Demo
 
@@ -22,10 +22,13 @@ Follow these steps to set up the project locally.
 2. **Install the dependencies:**
 
    Using npm:
+
    ```bash
    npm install
    ```
+
    Or using yarn:
+
    ```bash
    yarn install
    ```
